@@ -64,8 +64,9 @@ namespace helloApp
                     Console.WriteLine("You have chosen an unknown action");
                     break;
             }
-         //Task 2.1
-            Console.WriteLine("Task 2.1");
+            Console.WriteLine("\n\n");
+            //Task 2.1
+            Console.WriteLine("Task 2.1\n");
             Console.WriteLine("operation  ==");
             var b1 = 1;
             var b2 = 2;
@@ -132,5 +133,8 @@ namespace helloApp
         }
     }
 }
+       
+
+
        
 
