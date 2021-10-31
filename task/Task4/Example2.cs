@@ -12,7 +12,7 @@ namespace Task4._2
             //example with a queue
             int sum = 0;
             int summa = 0;
-            int summa3 = 0;
+            //int summa3 = 0;
             int[] arr = Enumerable.Range(1, 25).ToArray();
             Console.WriteLine("Queue");
             foreach (int num in arr)
