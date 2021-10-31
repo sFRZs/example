@@ -12,7 +12,7 @@ namespace Task4._2
             //example with a queue
             int sum = 0;
             int summa = 0;
-            //int summa1 = 0;
+            //int summa3 = 0;
             int[] arr = Enumerable.Range(1, 25).ToArray();
             Console.WriteLine("Queue");
             foreach (int num in arr)
@@ -61,11 +61,11 @@ namespace Task4._2
             Console.WriteLine("---------------------------------------------------------");
             /*for (int i = Math.Min(min1, max1) ; i < Math.Max(min1, max1); i++)
             {
-                summa1 += arr[i];
+                summa3 += arr[i];
             }
             foreach (int i in arr)
                 Console.Write(i + " ");
-            Console.WriteLine("Сумма: " + summa1);
+            Console.WriteLine("Сумма: " + summa3);
             Console.WriteLine("----------------------------------------------------------");*/
 
             //example with a random
@@ -146,3 +146,4 @@ namespace Task4._2
         }
     }
 }
+
