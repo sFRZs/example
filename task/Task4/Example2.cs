@@ -25,7 +25,6 @@ namespace Task4._2
                 if (arr[i] < min1)
                 {
                     min1 = arr[i];
-
                 }
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
@@ -36,7 +35,6 @@ namespace Task4._2
                 if (arr[i] > max1)
                 {
                     max1 = arr[i];
-
                 }
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Red;
@@ -113,7 +111,6 @@ namespace Task4._2
                 if (ArrayA[i] > max)
                 {
                     max = ArrayA[i];
-
                 }
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Red;
