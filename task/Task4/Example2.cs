@@ -12,7 +12,7 @@ namespace Task4._2
             //example with a queue
             int sum = 0;
             int summa = 0;
-            //int summa3 = 0;
+            int summa3 = 0;
             int[] arr = Enumerable.Range(1, 25).ToArray();
             Console.WriteLine("Queue");
             foreach (int num in arr)
@@ -59,9 +59,9 @@ namespace Task4._2
             Console.WriteLine("Sum max and min : " + summa1);
             Console.WriteLine("Sum between the maximum and minimum: " + summa2);
             Console.WriteLine("---------------------------------------------------------");
-            /*for (int i = Math.Min(min1, max1) ; i < Math.Max(min1, max1); i++)
+            /*for (int i = Math.Min(min1, max1); i < Math.Max(min1, max1); i++)
             {
-                summa3 += arr[i];
+                summa3+= arr[i];
             }
             foreach (int i in arr)
                 Console.Write(i + " ");
@@ -118,14 +118,7 @@ namespace Task4._2
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Element max " + max);
-            /*   for (int i = Math.Min(max, min)+1 ; i < Math.Max(max, min); i++)
-                {
-                    Console.WriteLine(i);
-                    sum +=ArrayA[i]; 
-                }
-          foreach (int i in ArrayA)
-                  Console.Write(i + " ");*/
-
+ 
             for (int i = 0; i < ArrayA.Length; i++)
             {
                 if (max > min && (i - 1) < max)
@@ -146,4 +139,5 @@ namespace Task4._2
         }
     }
 }
+
 
